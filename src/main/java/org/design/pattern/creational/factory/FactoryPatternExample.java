@@ -4,7 +4,7 @@ package org.design.pattern.creational.factory;
  * @author sourav848
  * @description abstract factor java implementation
  */
-public class Test {
+public class FactoryPatternExample {
 
     public static void main(String[] args) {
         Phone phone = PhoneFactory.getPhone("iphone");
