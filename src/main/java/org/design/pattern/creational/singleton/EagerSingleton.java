@@ -10,7 +10,8 @@ package org.design.pattern.creational.singleton;
  */
 
 public class EagerSingleton {
-
+	
+	//The instance of the EagerSingleton class will be created only once
     private static EagerSingleton instance = new EagerSingleton();
 
     private EagerSingleton() {}
